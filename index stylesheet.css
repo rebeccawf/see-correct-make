@@ -1,0 +1,440 @@
+css test
+
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    background-color: #ffffff;
+    color: #000;
+  }
+
+  h1 {
+    font-family: alternate-gothic-no-3-d, sans-serif;
+    color: black;
+    padding-top: 50px;
+    margin-left: 200px;
+    margin-top: 0px;
+    font-size: 40px;
+    font-size: 3vw;
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.color2 {
+  color: #4E7E7E;
+}
+  
+a {
+  color: #000;
+}
+
+  /*nav bar*/
+.pitchtekst {
+  color: black;
+  width: 100%;
+  text-align: center;
+  font-style: italic;
+  letter-spacing: 0.3em;
+  font-family: alternate-gothic-no-3-d, sans-serif;
+  font-weight: lighter;
+  font-size: 20px;
+  font-size: 1.4vw;
+}
+
+.container {
+  width: 98%;
+  height: 500px;
+  position: absolute;
+  top: 0;
+}
+
+header {
+  background-color: white;
+   height: 12em;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+}
+
+.headerimg {
+    height: 160px;
+    width: auto;
+    margin-left: 25px;
+    position: relative;
+}
+
+.nav-bar {
+  border: solid,  black;
+  text-align: right;
+  box-sizing: border-box;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  z-index: 1;
+  width: 100%;
+  padding-top: 0.5em;
+}
+
+#nav-img {
+    float: left;
+    padding: 1em;
+}
+
+.nav-button {
+    float: right;
+    color: black;
+}
+
+span {
+    padding: 20px;
+    color: black;
+}
+
+.nav-button a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-size: 1.2vw;
+    margin-right: 45px;
+}
+.nav-button a:hover {
+  background-color:  #4E7E7E;
+  color: white;
+  border-radius: 10px;
+}
+
+#nav-pitch {
+  float: right;
+  text-align: center;
+  padding-right: 2em;
+  color: black;
+}
+
+.secondNav {
+  list-style: none;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  background-color: #A62342;
+  padding: 10px;
+  height: 2.6vh;
+}
+
+.secondNavButton {
+  float: right;
+  text-decoration: none;
+}
+
+.secondNav li {
+  float: left;
+}
+
+.secondNav a {
+  width: 175px;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-family: alternate-gothic-no-3-d, sans-serif;
+}
+
+.secondNav a:hover {
+  background-color: #333333;
+  color: white;
+  border-radius: 5px;
+  
+}
+
+.nav ul li{
+  list-style-type: none;
+  width: 100%;
+  float: center;
+}
+  
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px;
+  }
+
+.announcements {
+  color: #4E7E7E;
+}
+
+.news {
+  color: #A62342;
+}
+
+
+.test1, .test2, .test3 {
+  color: #423a37;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-size: 2vw;
+  margin: 0;
+  margin-left: 50px;
+  padding-top: 0;
+  padding-left: 50px;
+  margin-top: 20px;
+  font-family: alternate-gothic-no-3-d, sans-serif;
+  line-height: 0.9;
+  justify-content: space-around;  
+}
+
+.test2 {
+    color: #4E7E7E;
+}
+
+.test2 p a:hover {
+  background-color:  #4E7E7E;
+  color: white;
+  border-radius: 10px;
+}
+
+.test3 {
+    color: #A62342;
+}
+
+.ekstra-skrift, .ekstra-skrift2 {
+    float: right;
+    position: relative;
+    right: 0;
+    top: 0;
+    margin-right: 150px;
+    margin-left: 0px;
+    bottom: 0;
+    font-size: 2vw;
+}
+
+.ekstra-skrift a:hover {
+  background-color:  #4E7E7E;
+  color: white;
+  border-radius: 10px;
+}
+
+.ekstra-skrift2 a:hover{
+  background-color: #A62342;
+  color: white;
+  border-radius: 10px;
+}
+
+.ekstra-skrift2 {
+  margin-top: -220px;
+  margin-right: 50px;
+}
+
+.studietekstene {
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.studietekst {
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+  font-family: alternate-gothic-no-3-d, sans-serif;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.studieinfo {
+  font-size: 20px;
+  color: black;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 3em;
+}
+
+.studielinkene {
+  width: 100%;
+  padding: 0;
+  margin: 0 auto;
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.studielinker {
+  text-transform: uppercase;
+  text-align: left;
+  width: 60%;
+  float: left;
+  color:  #4E7E7E;
+  padding-left: 25%;
+  margin: 0px;
+  padding-top: 0px;
+  font-family: alternate-gothic-no-3-d, sans-serif;
+  margin-top: -10px;
+  margin-left: 2em;
+  
+}
+
+.studielinker li {
+  padding: 5px;
+}
+
+.studielinker a {
+  color: #4E7E7E;
+  text-decoration: none;
+}
+
+.studielinker a:hover {
+  color: black;
+}
+
+.studiebilder {
+  height: 150px;
+  width: auto;
+  padding-top: 30px;
+  padding-bottom: 0px;
+  margin-left: 6em;
+}
+
+ul {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.nobull, .nobull2 {
+  list-style: none;
+  text-decoration: none;
+}
+
+.nobull2 ul li {
+  display: inline-block;
+  line-height: 40px;
+  margin: 0 50px;
+  margin-left: 10%;
+  letter-spacing: 2px;
+}
+
+.nobull2 ul li a {
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.nobull2 ul li a:hover {
+  color: #A62342;
+  text-transform: uppercase;
+}
+
+.nav-bar2 {
+  border: solid,  black;
+  text-align: right;
+  box-sizing: border-box;
+  position: absolute;
+  display: block;
+  overflow: hidden;
+  z-index: 1;
+  width: 100%;
+  padding-top: 0.5em;
+  margin-bottom: 5px;
+}
+
+footer {
+  margin-top: 100px;
+}
+
+footer p {
+  margin-left: 10%;
+  margin-top: 400px;
+  font-family: alternate-gothic-no-3-d, sans-serif;
+}
+
+.followus li {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+.followus li a {
+  text-decoration: none;
+}
+
+.followus li a:hover {
+  color: #A62342;
+}
+
+.footer-nav {
+  background: white;
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+  border-color: black;
+  margin-bottom: 0.5em;
+  height: 40px;
+  width: 100%;
+}
+
+.footer-nav ul li {
+  display: inline-block;
+  line-height: 40px;
+  margin: 0 50px;
+  margin-left: 10%;
+  letter-spacing: 2px;
+}
+
+#followus {
+  text-transform: uppercase;
+  font-weight: bold;
+  border-bottom: black solid 1px;
+}
+
+#lettericon {
+  max-height: 50px;
+  width: auto;
+}
+
+.footer-nav ul li a {
+  color: black;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+.footer-nav ul li a:hover {
+  color: #A62342;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+.bottom {
+  display: inline-block;
+  margin-left: 5%;
+}
+.bottom img {
+  height: 90px;
+  width: auto;
+  float: left;
+  margin-top: 22px;
+  margin-left: -9px;
+}
+.bottom h1 {
+  float: left;
+  margin-left: 20px;
+  font-size: 40px;
+}
+
+.footer-content {
+  float: right;
+  margin-right: 20%;
+  margin-top: 22px;
+}
+
+.footer-content a {
+  text-decoration: underline;
+  color: black;
+}
+
+
+@media screen and (max-width: 900px) {
+  table, td, tr {
+      display: block;
+  }
+}
