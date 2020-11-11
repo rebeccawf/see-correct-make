@@ -1,5 +1,9 @@
 css test
 
+/*Box size for all elements */
+* {
+  box-sizing: border-box;
+} 
 body {
     margin: 0;
     font-family: Helvetica, sans-serif;
@@ -52,7 +56,7 @@ a {
 
 header {
   background-color: white;
-   height: 12em;
+  height: 12em;
   background-size: cover;
   width: 100%;
   position: relative;
@@ -152,6 +156,8 @@ span {
   
 }
 */
+
+/*ny nav bar start*/
 .nav ul li{
   list-style-type: none;
   width: 100%;
@@ -184,7 +190,7 @@ span {
     color: white;
     border-radius: 5px;
 }
-
+/* Ny nav bar slutt*/
   
 
 .main {
@@ -232,7 +238,7 @@ span {
 }
 
 .ekstra-skrift, .ekstra-skrift2 {
-    float: right;
+    
     position: relative;
     right: 0;
     top: 0;
@@ -240,6 +246,14 @@ span {
     margin-left: 0px;
     bottom: 0;
     font-size: 2vw;
+}
+.news-links {
+  padding-left: 420px;
+
+}
+
+.find-degree {
+  padding-left: 420px;
 }
 
 .ekstra-skrift a:hover {
@@ -255,8 +269,8 @@ span {
 }
 
 .ekstra-skrift2 {
-  margin-top: -220px;
-  margin-right: 50px;
+  margin-top: 5px;
+  margin-right: 0px;
 }
 
 .studietekstene {
@@ -465,5 +479,12 @@ footer p {
 @media screen and (max-width: 900px) {
   table, td, tr {
       display: block;
+  }
+  .news-links{
+    padding-left: 0;
+  }
+
+  .find-degree {
+    padding-left: 0;
   }
 }
