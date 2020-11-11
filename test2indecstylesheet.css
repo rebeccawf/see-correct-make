@@ -247,6 +247,8 @@ span {
     bottom: 0;
     font-size: 2vw;
 }
+
+/* nytt start */
 .news-links {
   padding-left: 420px;
 
@@ -255,6 +257,8 @@ span {
 .find-degree {
   padding-left: 420px;
 }
+
+/*nytt slutt*/
 
 .ekstra-skrift a:hover {
   background-color:  #4E7E7E;
@@ -475,7 +479,7 @@ footer p {
   color: black;
 }
 
-
+/* Lagt til news og find*/
 @media screen and (max-width: 900px) {
   table, td, tr {
       display: block;

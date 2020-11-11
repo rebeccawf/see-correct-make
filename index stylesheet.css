@@ -115,48 +115,39 @@ span {
   color: black;
 }
 
-.secondNav {
-  list-style: none;
-  width: 100%;
-  margin: 0 auto;
-  position: relative;
-  background-color: #A62342;
-  padding: 10px;
-  height: 2.6vh;
-}
-
-.secondNavButton {
-  float: right;
-  text-decoration: none;
-}
-
-.secondNav li {
-  float: left;
-}
-
-.secondNav a {
-  width: 175px;
-  display: block;
-  text-decoration: none;
-  text-align: center;
-  text-transform: uppercase;
-  color: white;
-  font-family: alternate-gothic-no-3-d, sans-serif;
-}
-
-.secondNav a:hover {
-  background-color: #333333;
-  color: white;
-  border-radius: 5px;
-  
-}
 
 .nav ul li{
   list-style-type: none;
   width: 100%;
   float: center;
 }
+
+
+.secondNav {
+  background-color: #A62342;
+  overflow: auto;
+  white-space: nowrap;
   
+}
+
+
+.secondNav a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: alternate-gothic-no-3-d, sans-serif;
+  padding: 10px;
+  height: 2.6vh;
+  width: 175px; 
+}
+
+.secondNav a:hover {
+    background-color: #333333;
+    color: white;
+    border-radius: 5px;
+}
 
 .main {
   padding: 16px;
@@ -203,15 +194,23 @@ span {
 }
 
 .ekstra-skrift, .ekstra-skrift2 {
-    float: right;
-    position: relative;
-    right: 0;
-    top: 0;
-    margin-right: 150px;
-    margin-left: 0px;
-    bottom: 0;
-    font-size: 2vw;
+  position: relative;
+  right: 0;
+  top: 0;
+  margin-right: 150px;
+  margin-left: 0px;
+  bottom: 0;
+  font-size: 2vw;
 }
+.news-links {
+  padding-left: 420px;
+
+}
+
+.find-degree {
+  padding-left: 420px;
+}
+
 
 .ekstra-skrift a:hover {
   background-color:  #4E7E7E;
@@ -226,8 +225,8 @@ span {
 }
 
 .ekstra-skrift2 {
-  margin-top: -220px;
-  margin-right: 50px;
+  margin-top: 5px;
+  margin-right: 0px;
 }
 
 .studietekstene {
@@ -436,5 +435,12 @@ footer p {
 @media screen and (max-width: 900px) {
   table, td, tr {
       display: block;
+  }
+  .news-links{
+    padding-left: 0;
+  }
+
+  .find-degree {
+    padding-left: 0;
   }
 }
