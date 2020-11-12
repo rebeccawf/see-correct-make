@@ -51,7 +51,7 @@ a {
 
 header {
   background-color: white;
-   height: 12em;
+  height: 12em;
   background-size: cover;
   width: 100%;
   position: relative;
@@ -498,29 +498,51 @@ footer p {
     position: relative;
   }
   .pitchtekst {
-    font-size: 2vw;
+    font-size: 10px;
+    margin-left: 25px;
   }
   .nav-button a {
     font-size: 12px;
+    margin-right: 10px;
+  }
+
+  h1 {
+    margin-left: 120px;
+    font-size: 20px;
   }
 }
 
 @media screen and (max-width: 400px) {
   .test1, .test2, .test3 {
-    font-size: 10px;
+    font-size: 15px;
   }
 
   .pitchtekst {
-    font-size: 5px;
+    font-size: 10px;
+    margin-left: 40px;
   }
 
   header {
     padding-left: 0;
   }
 
+  h1 {
+    font-size: 20px;
+    margin-left: 100px;
+  }
+
   .studieinfo {
-    font-size: 5px;
+    font-size: 15px;
     padding-left: 0px;
+  }
+
+  .studietekst {
+    font-size: 15px;
+  }
+
+  .nav-button a {
+    font-size: 10px;
+    margin-right: 5px;
   }
 
 
