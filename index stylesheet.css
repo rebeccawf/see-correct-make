@@ -1,4 +1,3 @@
-css test
 
 body {
     margin: 0;
@@ -127,7 +126,14 @@ span {
   background-color: #A62342;
   overflow: auto;
   white-space: nowrap;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left : 0px;
+  padding-right: 0px;
+  margin: 0 auto;
   
+
 }
 
 
@@ -140,7 +146,8 @@ span {
   font-family: alternate-gothic-no-3-d, sans-serif;
   padding: 10px;
   height: 2.6vh;
-  width: 175px; 
+  width: 175px;
+
 }
 
 .secondNav a:hover {
@@ -148,6 +155,9 @@ span {
     color: white;
     border-radius: 5px;
 }
+
+
+
 
 .main {
   padding: 16px;
@@ -444,3 +454,44 @@ footer p {
     padding-left: 0;
   }
 }
+
+@media screen and (max-width: 1400px) {
+  
+   header {
+        height: 30vh;
+    }
+    .pitchtekst {
+      font-size: 1.5vw;
+    }
+}
+
+@media screen and (max-width: 700px) {
+  
+  .headerimg {
+    height: 120px;
+    width: auto;
+    margin-left: 10px;
+    position: relative;
+  }
+  .pitchtekst {
+    font-size: 1.5vw;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  
+  .headerimg {
+    height: 80px;
+    width: auto ;
+    margin-left: 3px;
+    position: relative;
+  }
+  .pitchtekst {
+    font-size: 2vw;
+  }
+}
+
+
+
+
+
