@@ -505,6 +505,27 @@ footer p {
   }
 }
 
+@media screen and (max-width: 400px) {
+  .test1, .test2, .test3 {
+    font-size: 10px;
+  }
+
+  .pitchtekst {
+    font-size: 5px;
+  }
+
+  header {
+    padding-left: 0;
+  }
+
+  .studieinfo {
+    font-size: 5px;
+    padding-left: 0px;
+  }
+
+
+}
+
 
 
 
